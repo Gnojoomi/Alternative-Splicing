@@ -4,7 +4,7 @@
 #SBATCH -o /group/runciegrp/Projects/HiLo_ASE/Results/Kallisto/AGPv4/str_out/%A_%a.out
 #SBATCH -e /group/runciegrp/Projects/HiLo_ASE/Results/Kallisto/AGPv4/str_err/%A_%a.err
 #SBATCH --mem 5G
-#SBATCH --array=1-672
+#SBATCH --array=2-672
 
 module load bio
 
